@@ -12,7 +12,7 @@ export class ClassTrafficLight extends Component {
   };
 
   render() {
-    const colors = ['red', 'yellow', 'green'];
+    const colors = ['red', 'green', 'yellow'];
     const currentColor = colors[this.state.colorIndex];
 
     return (

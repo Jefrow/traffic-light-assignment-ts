@@ -3,7 +3,7 @@ import { useState } from 'react';
 export const FunctionalTrafficLight = () => {
   const [colorIndex, setColorIndex] = useState(0);
 
-  const colors = ['red', 'yellow', 'green'];
+  const colors = ['red', 'green', 'yellow'];
   const currentColor = colors[colorIndex];
 
   const handleChangeColor = () => {
